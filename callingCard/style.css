@@ -23,9 +23,9 @@ body {
     overflow: hidden;
     background: url("images/strikingly-calvin-klein-area-rugs-ravishing-ck32-maya-etched-light-orchid.jpg") no-repeat;
     font-family: 'PT Sans', sans-serif;
-    -webkit-transition: all 0.8s ease;
+    -webkit-transition: all 1.1s ease;
     height: 100vh;
-    transition: all 0.8s ease;
+    transition: all 1.1s ease;
     padding: 20% 0 0 15%;
     box-sizing: border-box;
 }
@@ -42,8 +42,8 @@ body {
 
 .sticky {
     position: relative;
-    -webkit-transition: all 0.8s ease;
-    transition: all 0.8s ease;
+    -webkit-transition: all 1.1s ease;
+    transition: all 1.1s ease;
     height: 0;
     padding: 0;
 
@@ -210,6 +210,7 @@ H1 {
 .products-wrap {
     display: grid;
     grid-template-columns: repeat(auto-fill, 246px);
+    grid-gap: 1rem;
     justify-content: center;
     margin-top: 90px;
 }
